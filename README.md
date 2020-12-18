@@ -7,14 +7,14 @@ Our Python group project is a webscraper that collects various data items of the
 
 **How does it work?**
 
-Our project works by using various tools: first, we use BeautifulSoup to scrape the IMDb website. Second, Numerical Python (Numpy) and Pandas are used to collect, clean and store the data in a pandas dataframe. This dataframe (called movies in the code) is the basis for the subsequent analyses. Eventually, we creates a HTML website with movie recommendations based on YOUR preferences.
+Our project works by using various tools: first, we use BeautifulSoup to scrape the IMDb website. Second, Numerical Python (Numpy) and Pandas are used to collect, clean and store the data in a pandas dataframe. This dataframe (called movies in the code) is the basis for the subsequent analyses. Eventually, we create a HTML website with movie recommendations based on YOUR preferences.
 
 When scraping the IMDb website, the program automatically makes pauses of random length, in order to not overload the server.
 
 
 **How can you use it?**
 
-Download the Github repository to your on your personal computer. To run the code (file: *imdb1000.ipynb*), the following steps need to be performed:
+Download the Github repository to your own personal computer. To run the code (file: *imdb1000.ipynb*), the following steps need to be performed:
 
 1.   Run the code in "Part 1: Building the dataframe" in order to create a dataframe with the movies (file: *movies.csv*). Please note that the first cell, the webscraper, will take a few minutes to execute, as the program scrapes 1000 movies on the IMDb website. 
 
